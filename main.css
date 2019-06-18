@@ -19,8 +19,9 @@ body {
   width: 95%;
 }
 #UPlogoSVG{
-  animation: rainbow 20s infinite alternate;
+  animation: rainbow 12s infinite alternate;
 }
+
 @keyframes rainbow {
   12.5% {fill: #ff2400;}
   25%{fill: #e81d1d}
