@@ -32,4 +32,9 @@ body {
   87.5%{fill: #2b1de8;}
   100%{fill: #452678;}
   }
+.small{
+  font-size: 10px;
+}
+.nondot{
+  list-style-type: none;
 }
