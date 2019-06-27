@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  color: #000;
+  color: #;
   font-family: Helvetica;
   font-size:1.5vw;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 #copyright {
-  position: fixed;
+  position: absolute;
   text-align: right;
   bottom: 5%;
   width: 95%;
@@ -38,3 +38,12 @@ body {
 .nondot{
   list-style-type: none;
 }
+.fullpage{
+  height: 100vh;
+}
+#downpage{
+  height: 100vh;
+}
+#center{display: block;
+margin-left: auto;
+margin-right: auto;}
