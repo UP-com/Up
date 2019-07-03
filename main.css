@@ -77,3 +77,7 @@ section{
   height: 100vh;
   display: flex;
 }
+#aa-subscribe .aa-subscribe-area .aa-subscribe-form input[type="submit"] {
+  background: #171E51 none repeat scroll 0 0;
+  border: 1px solid #171E51;
+}
