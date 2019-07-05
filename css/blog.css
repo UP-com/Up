@@ -1,0 +1,45 @@
+body {
+  font-family: 'Source Sans Pro';
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+br {
+  line-height: 300%;
+}
+
+.bordo {
+  border: 20px solid #bdc3c7;
+  padding: 30px;
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.color_fecha {
+  color: #3498db;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.bordo-izq {
+  border-left: 5px solid gray;
+  padding-left: 5px;
+}
+
+.fuentes {
+  color: gray;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.fuentes br {
+  line-height: 100%;
+}
+
+.titulo {
+  text-align: center;
+}
