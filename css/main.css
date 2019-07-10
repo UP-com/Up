@@ -1,9 +1,13 @@
+/* TEST 2 */
 body {
-  background: #fff;
+
   color: #;
   font-family: Helvetica;
-  font-size:1.5vw;
+  font-size: 20px;
+  background: #fff;
+  -webkit-text-size-adjust: none;
 }
+#firstpage{font-size: 1.5vw;}
 
 #center-img {
   position: absolute;
@@ -18,66 +22,131 @@ body {
   bottom: 5%;
   width: 95%;
 }
-#UPlogoSVG{
+
+.fullpage {
+  height: 100vh;
+}
+.fullpage-1 {
+  height: 100vh;
+
+}
+.halfpage {
+  height: 50vh;
+}
+
+#UPlogoSVG {
   animation: rainbow 12s infinite alternate;
 }
 
 @keyframes rainbow {
-  12.5% {fill: #ff2400;}
-  25%{fill: #e81d1d}
-  37.5%{fill: #e8b71d;}
-  50%{fill: #e3e81d;}
-  62.5%{fill: #1de840;}
-  75%{fill: #1ddde8;}
-  87.5%{fill: #2b1de8;}
-  100%{fill: #452678;}
+  12.5% {
+    fill: #ff2400;
   }
-.icon-small{
+
+  25% {
+    fill: #e81d1d
+  }
+
+  37.5% {
+    fill: #e8b71d;
+  }
+
+  50% {
+    fill: #e3e81d;
+  }
+
+  62.5% {
+    fill: #1de840;
+  }
+
+  75% {
+    fill: #1ddde8;
+  }
+
+  87.5% {
+    fill: #2b1de8;
+  }
+
+  100% {
+    fill: #452678;
+  }
+}
+
+.icon-small {
   width: 60px;
 }
-.image-mid{
+
+.image-mid {
   width: 60%;
 }
-.nondot{
+
+.nondot {
   list-style-type: none;
 }
-.fullpage{
-  height: 100vh;
-}
-#downpage{
-  height: 100vh;
-}
-#center{display: block;
-margin-left: auto;
-margin-right: auto;}
-#pagetop{
-	position: fixed;
-	top: 0px;
-	width:100%;
-	height: 120px;
-	background: #06C;
-	color: #FFF;
-	font-size: 23px;
-	padding-top: 50px;
-	transition: height 0.2s linear 0s, padding 0.2s linear 0s;
-	overflow:hidden;
-}
-#pagetop > #menu{
-	position: absolute;
-	bottom: 0px;
-	width:100%;
-	background: #004A95;
-	height: 50px;
-	transition: height 0.2s linear 0s;
-}
-#wrapper{ margin-top: 230px; }
 
-section{
-  width: 100%;
+#downpage {
   height: 100vh;
-  display: flex;
 }
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #aa-subscribe .aa-subscribe-area .aa-subscribe-form input[type="submit"] {
   background: #171E51 none repeat scroll 0 0;
   border: 1px solid #171E51;
+}
+
+#navbar{
+  z-index: 500;
+}
+#navbar ul{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+#navbar li {
+  float: left;
+}
+#navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#navbar.active {
+  background-color: #4CAF50;
+}
+#img-icon{
+  width: 12px;
+  height: 12px;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+
+#navbar .nav-left{
+  float: left;
+}
+#navbar .nav-right{
+  float: right;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
 }

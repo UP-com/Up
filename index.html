@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="fullpage">
+  <div class="fullpage-1" id="firstpage">
   <h1>What's ...</h1>
   <div id="center-img">
     <svg version="1.1" id="UPlogoSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve" width="600">
@@ -46,13 +46,33 @@
   <h3>Copyright 2019<br>contact@üp.com<br></h3>
   </div>
 </div>
-<div class="fullpage"></div>
-<div id="wrapper"><div>
-<center>
+
+<!-- NAV 2 -->
+<div id="navbar">
+  <ul>
+    <li><a href="#home">ÜP.com</a></li>
+    <li><a href="#how">How it works?</a></li>
+    <li style="float:right"><a class="active" href="#about"><img src="img/user-icon.svg" height=20px;>Log-In</a></li>
+  </ul>
+</div>
+<!-- NAV 1
+<div id="navbar">
+  <div class="nav-left">
+    <a href="#news">How it works?</a>
+    <a href="#"><img src="img/OnlyUP-White.svg" height=50px;></a>
+  </div>
+  <div class="nav-right">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div> -->
+
+  <center>
   <h1>Soon...</h1>
   <marquee behavior="alternate" scrollamount="14">
-  <img src="img/cat.gif" alt="cat.gif" class="icon-small">
-</marquee>
+    <img src="img/cat.gif" alt="cat.gif" class="icon-small">
+  </marquee>
   <br><br><br><br><br>
   <div class="container">
     <div class="row">
@@ -100,6 +120,7 @@
   <!-- SCRIPTS -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142285047-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)} gtag('js',new Date());gtag('config','UA-142285047-1');</script>
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '353776921965218'); fbq('track', 'PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=353776921965218&ev=PageView&noscript=1"/></noscript>
+<script src="js/sticky-bar.js"></script>
 
 </body>
 </html>
