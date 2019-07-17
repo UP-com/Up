@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="17.97" viewBox="0 0 24 17.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7a1a1d;
+      }
+      .cls-2{
+      fill:#fff;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+  <path id="rue" d="M13.5 18a1.5 1.5 0 1 0 1.5 1.5 1.5 1.5 0 0 0-1.5-1.5zM10 19.5A1.5 1.5 0 1 1 8.5 18a1.5 1.5 0 0 1 1.5 1.5z" transform="translate(-.02 -3.03)"/>
+  <path id="cart" d="M23.26 2h-1.93l-3.47 12H4.62L0 3h2.17l3.78 9h10.42L19.8 0H24"/></g>
+  <path id="arrow" d="M14.31 4.51L13.18 3.4l-2.1 2.09-2.12-2.11-1.12 1.13 2.09 2.11-2.04 2.02L9.1 9.76l1.97-1.99 2.02 2.03 1.12-1.2-1.99-1.98 2.09-2.11z" class="cls-1"/></svg>

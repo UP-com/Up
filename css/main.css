@@ -71,8 +71,10 @@ body {
     fill: #452678;
   }
 }
-
-.icon-small {
+.icon-small{
+  height: 20px;
+}
+.icon-mid {
   width: 60px;
 }
 
@@ -118,23 +120,27 @@ background-color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border: 1px solid #333;
 }
 #navbar li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #000;
+    border: 1px solid red;
 }
 
 #navbar.active {
   background-color: #4CAF50;
 }
+.active {
+  background-color: #4CAF50;
+}
+li.nav-right {
+    float: right !important;
+  }
+
 #img-icon{
   width: 12px;
   height: 12px;
 }
-.active {
-  background-color: #4CAF50;
-}
-
-
 #navbar .nav-left{
   float: left;
 }
