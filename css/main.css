@@ -38,52 +38,31 @@ body {
   animation: rainbow 12s infinite alternate;
 }
 
-@keyframes rainbow {
-  12.5% {
-    fill: #ff2400;
-  }
-
-  25% {
-    fill: #e81d1d
-  }
-
-  37.5% {
-    fill: #e8b71d;
-  }
-
-  50% {
-    fill: #e3e81d;
-  }
-
-  62.5% {
-    fill: #1de840;
-  }
-
-  75% {
-    fill: #1ddde8;
-  }
-
-  87.5% {
-    fill: #2b1de8;
-  }
-
-  100% {
-    fill: #452678;
-  }
+@keyframes rainbow{
+  12.5% {fill:#ff2400;}
+  25% {fill:#e81d1d;}
+  37.5% {fill:#e8b71d;}
+  50% {fill:#e3e81d;}
+  62.5% {fill:#1de840;}
+  75% {fill:#1ddde8;}
+  87.5% {fill:#2b1de8;}
+  100% {fill:#452678;}
 }
+.animation-opacity{animation:opac 1s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.animation-spin{animation:w3-spin 4s infinite linear}@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+
 .icon-small{
   height: 20px;
 }
 .icon-mid {
   width: 60px;
 }
-
 .image-mid {
   width: 60%;
 }
-
-.nondot {
-  list-style-type: none;
+.x64{
+  height: 5em;
+  width: 5em;
 }
 
 #downpage {
@@ -136,6 +115,26 @@ background-color: #333;
 li.nav-right {
     float: right !important;
   }
+
+.FlyMe {
+  padding: absolute;
+  top: 20%;
+  z-index: 1;
+  color: #000;
+}
+
+.ToThe {
+  position: absolute;
+  left: 0px;
+  top: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.Moon {
+  top: 120vh;
+  padding-bottom: 10%;
+}
 
 #img-icon{
   width: 12px;
