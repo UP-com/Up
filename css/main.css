@@ -1,4 +1,3 @@
-/* TEST 2 */
 body {
 
   color: #;
@@ -7,21 +6,23 @@ body {
   background: #fff;
   -webkit-text-size-adjust: none;
 }
-@media screen and (max-width:768px){
+
+/* RESPONSIVE H1 IN LESS THAN -900PX */
+@media screen and (max-width:900px){
     h1{
         font-size:5em;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     h2{
         font-size:4em;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     h3{
         font-size:3em;
     }
-}@media screen and (max-width:768px){
+}@media screen and (max-width:900px){
     h4{
         font-size:2em;
     }
