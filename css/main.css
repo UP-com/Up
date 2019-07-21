@@ -48,7 +48,8 @@ figcaption.alpha{
   color: #fff;
   border-radius: 2em;
   position: absolute;
-  top: 20%;
+  top: -15%;
+  left: -25%;
   transform: rotate(330deg)
 
 
