@@ -28,11 +28,15 @@ body {
 }
 .fullpage-1 {
   height: 100vh;
-
+}
+.fullpage-8 {
+  
 }
 .halfpage {
   height: 50vh;
 }
+.give9{
+  width: 80%;
 
 /* ANIMACIONES */
 
