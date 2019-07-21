@@ -7,6 +7,25 @@ body {
   background: #fff;
   -webkit-text-size-adjust: none;
 }
+@media screen and (max-width:768px){
+    h1{
+        font-size:5em;
+    }
+}
+@media screen and (max-width:768px){
+    h2{
+        font-size:4em;
+    }
+}
+@media screen and (max-width:768px){
+    h3{
+        font-size:3em;
+    }
+}@media screen and (max-width:768px){
+    h4{
+        font-size:2em;
+    }
+}
 #firstpage{font-size: 1.5vw;}
 
 #center-img {
