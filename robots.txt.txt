@@ -1,0 +1,6 @@
+#ÜP
+
+User-agents: *
+
+Disallow: /hey.html
+Disallow: /disigns.html

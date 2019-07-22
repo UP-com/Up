@@ -1,6 +1,5 @@
 body {
 
-  color: #;
   font-family: Helvetica;
   font-size:20px;
   background: #fff;
@@ -141,6 +140,7 @@ background-color: #002850;
   padding: 20px 20px;
   text-decoration: none;
   border-bottom: 2px solid #002850;
+  font-size: 21px;
   transition: all 100ms linear;
 }
 #navbar #navspace {
