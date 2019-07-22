@@ -78,13 +78,13 @@ figcaption.alpha{
 }
 
 @keyframes rainbow{
-  12.5% {fill:#ff2400;}
+  12.5% {fill:#EF3437;}
   25% {fill:#e81d1d;}
   37.5% {fill:#e8b71d;}
   50% {fill:#e3e81d;}
   62.5% {fill:#1de840;}
-  75% {fill:#1ddde8;}
-  87.5% {fill:#2b1de8;}
+  75% {fill:#01FFCE;}
+  87.5% {fill:#002850;}
   100% {fill:#452678;}
 }
 .animation-opacity{animation:opac 1s}@keyframes opac{from{opacity:0} to{opacity:1}}
@@ -129,7 +129,7 @@ figcaption.alpha{
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+background-color: #002850;
 }
 #navbar li {
   float: left;
@@ -138,10 +138,13 @@ background-color: #333;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #002850;
   transition: all 100ms linear;
+}
+#navbar #navspace {
+padding: 9px 90px 54px 32px;
 }
 #navbar li a:hover:not(.active) {
   background-color: #000;
@@ -181,6 +184,12 @@ li.nav-right {
 }
 #navbar .nav-left{
   float: left;
+}
+#navbar .nav-left img{
+height: 44px;
+  padding-right: 5px;
+  position: absolute;
+
 }
 #navbar .nav-right{
   float: right;
