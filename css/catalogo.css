@@ -112,3 +112,6 @@ border-bottom: 2px solid #ddd
 }
 .price-style::placeholder {color: #555;
 }
+.market-image{
+  width: 20%;
+}
