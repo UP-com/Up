@@ -177,6 +177,7 @@ li.nav-right {
   top: 120vh;
   padding-bottom: 10%;
 }
+.Moon:hover{filter: hue-rotate(310deg);}
 
 #img-icon{
   width: 12px;

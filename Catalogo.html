@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>ÜP.com | Catalogo</title>
+
+
+  <!-- METADATA -->
+<meta name="description" content="Ve el catalogo que se encuentra disponible en ÜP.com, prendas formales, camisas, calzado. Recibelo a domicilio y desde Internet. Monterrey">
+  <meta property="og:site_name" content="ÜP.com"/>
+  <meta property="og:title" content="Empieza a rentar ropa por Internet | ÜP"/>
+  <!-- <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/> -->
+  <meta content="img/Up-Og-Image.jpg" property="og:image">
+  <meta property="og:url" content="https://www.ÜP.com"/>
+   <!-- END METADATA -->
+   <link rel="icon" href="img/up-icon.png"/>
+   <link href="css/main.css" rel="stylesheet">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/catalogo.css" rel="stylesheet">
+   <script src="js/sticky-bar.js"></script>
+
+   </head>
+   <body>
+
+     <!-- NAV -->
+     <div id="navbar">
+     <ul>
+       <li class="nav-left"><a href="#home" id="navspace"><img src="img/LogoV2-white.svg" alt="UP Icon"></a></li>
+       <li class="nav-left"><a href="#how"><strong>Catalogo</strong></a></li>
+       <li class="nav-right"><a class="btn-green" href="#Login"><img src="img/icons/user.svg" class="icon-small"> Login</a></li>
+       <li class="nav-right"><a class="active" href="#Cart"><img src="img/icons/cart-cross.svg" class="icon-small"> Cart</a></li>
+     </ul>
+     </div>
+     <!-- END NAV -->
+
+     <!-- Search Box -->
+<div class="buscar-caja">
+  <input type="text" name="" class="buscar-txt" placeholder="Buscar..." id="textbox"/>
+  <a class="buscar-btn">
+    <i>
+      <svg  class="WhiteToBlack" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+      <g><path d="M22 20l-2 2-6-6v-2h2zm0 0"/><path fill="none" stroke="#" stroke-width="2" stroke-miterlimit="10" d="M9 3C5.7 3 3 5.7 3 9s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 0"/>
+      <path fill="none" stroke="#" stroke-miterlimit="10" d="M13 13l2.5 2.5"/></g>
+      </svg>
+    </i>
+  </a>
+  <div class="d-none d-md-block" style="padding: 41px 0px 0 30%">
+  <button class="boton-recom" type="button" onclick="rec1()">Camisas</button>
+  <button class="boton-recom" type="button" onclick="rec2()">Trajes</button>
+  <button class="boton-recom" type="button" onclick="rec3()">Azul Oscuro</button>
+  <script>  //ESCRIBE EN id TEXTBOX LA PALABRA DEL SCRIPT
+  function rec1() {document.getElementById("textbox").defaultValue = "Camisas";}
+  function rec2() {document.getElementById("textbox").defaultValue = "Trajes";}
+  function rec3() {document.getElementById("textbox").defaultValue = "Azul Oscuro";}
+  </script>
+</div>
+</div>
+<div style="padding-top:150px;"></div>
+  <!-- END Search Box -->
+
+<div class="market pt-5">
+    <div class="row border border-danger">
+      <div class="col-s-6 col-md-2  pl-4 justify-content-center">
+
+        <h3>Filtro</h3>
+
+        <div class="colores down-line">
+        <center>
+        Colores
+        <br>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-a c-s"viewBox="0 0 2 2" alt="Color Negro"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-b c-s"viewBox="0 0 2 2" alt="Color Gris"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-c c-s"width="200.5" height="200.5" viewBox="0 0 200.5 200.5"><circle cx="100.25" cy="100.25" r="100" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-d c-s"viewBox="0 0 2 2" alt="Color Azul"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-e c-s"viewBox="0 0 2 2" alt="Color Cafe"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-f c-s"viewBox="0 0 2 2" alt="Color Rojo"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-g c-s"viewBox="0 0 2 2" alt="Color Verde"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+<svg xmlns="http://www.w3.org/2000/svg"class="c-h c-s"viewBox="0 0 2 2" alt="Color Amarillo"><circle cx="1"cy="1"r="1"fill""/ ></svg>
+
+</div>
+Precio
+<br>
+$
+<input type="text" name="" placeholder="min" class="price-style" maxlength="5" size="4">
+-
+<input type="text" name="" placeholder="max" class="price-style" maxlength="5" size="4">
+</center>
+  </div>
+
+
+
+
+
+  <div class="col-s-6 col-md-10 bg-warning m-0 "><h3>BOX-ITEMS</h3>
+<div class="border border-dark d-flex justify-content-around mt-5">
+<img src="img/items/forma-shirt-1.png" alt="IMG">
+<img src="img/items/forma-shirt-2.png" alt="IMG">
+<img src="img/items/forma-shirt-3.png" alt="IMG">
+<img src="img/items/forma-shirt-4.png" alt="IMG">
+</div>
+<div class="border border-dark d-flex justify-content-around mt-5">
+<img src="img/items/forma-shirt-1.png" alt="IMG">
+<img src="img/items/forma-shirt-2.png" alt="IMG">
+<img src="img/items/forma-shirt-3.png" alt="IMG">
+<img src="img/items/forma-shirt-4.png" alt="IMG">
+</div>
+
+<div class="row">
+<div class="col bg-primary">THING<br>adf</div>
+<div class="col bg-info">THING</div>
+<div class="col bg-success">THING</div>
+</div>
+<div class="row">
+<div class="col bg-primary">THING</div>
+<div class="col bg-info">THING</div>
+<div class="col bg-success">THING</div>
+</div>
+<div class="row">
+<div class="col bg-primary">THING</div>
+<div class="col bg-info">THING</div>
+<div class="col bg-success">THING</div>
+</div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+<script src="js/sticky-bar.js"></script>
+
+
+
+
+
+
+<!-- SCRIPTS -->
+
+
+   </body>
+   </html>
