@@ -116,14 +116,15 @@ border-bottom: 2px solid #ddd;
 
 }
 .colores{}
-.c-a{fill:#212121;}
-.c-b{fill:#999999;}
-.c-c{fill:#dddddd;}
-.c-d{fill:#002850;}
-.c-e{fill:#94684F;}
-.c-f{fill:#AA0E02;}
-.c-g{fill:#386C58;}
-.c-h{fill:#F5CC61;}
+.c-negro{fill:#212121;}
+.c-gris{fill:#999999;}
+.c-blanco{fill:#dddddd;}
+.c-azul{fill:#002850;}
+.c-cafe{fill:#94684F;}
+.c-rojo{fill:#AA0E02;}
+.c-verde{fill:#386C58;}
+.c-amarillo{fill:#F5CC61;}
+.c-naranja{fill:#f99245;}
 
 .price-style{
   border: 1px solid #ccc;
@@ -134,7 +135,7 @@ border-bottom: 2px solid #ddd;
 .price-style::placeholder {color: #555;
 }
 .market-image{
-  width: 20%;
+  width: 100%;
 }
 .market-buy{
   width: 50%;
@@ -142,11 +143,11 @@ border-bottom: 2px solid #ddd;
 }
 
 .box{
-border: 1px solid  rgba(221,221,221,0.0);
+border: 2px solid  rgba(221,221,221,0.0);
 transition: border 200ms ease-out;
 }
 .box:hover{
-border: 1px solid #dddddd;
+border: 2px solid #dddddd;
 }
 .market-image img{
   border: 2px  solid rgba(221,221,221,0.0);
