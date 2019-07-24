@@ -1,4 +1,27 @@
+/* @font-face{
+  font-family: "BahnLight";
+  src: url("../css/BAHNSCHRIFT.woff");
+  font-variation-settings: "wght" 300, "wdth" 100;
+}
+@font-face{
+  font-family: "BahnBold";
+  src: url("../css/BAHNSCHRIFT.woff");
+  wght(300-700)wdth(75-100)
+} */
+/* @font-face{
+  font-family: "BandeinsSansVariableGX";
+  src: url("../css/BandeinsSansVariableGX.ttf");
+  font-variation-settings: "wght" 200;
+} */
+
 body {
+  /* font-family: "Bahn";
+  font-variation-settings: "wght" 300, "wdth" 100; */
+    /* wght(300-700)wdth(75-100) */
+
+    /* font-family: "BandeinsSansVariableGX";
+      font-variation-settings: "wght" 200; */
+      /* rango (200~800) */
 
   font-family: Helvetica;
   font-size:20px;

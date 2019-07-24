@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Bahnschrift Regular";
   font-style: normal;
   font-weight: normal;
@@ -8,7 +8,9 @@
 src: local("Bahnschrift Regular"), url("css/BAHNSCHRIFT.woff")
   url('css/BAHNSCHRIFT.woff');
   font-variation-settings: "wght" 100, "wdth" 95.99;
-}
+} */
+@import url('https://fonts.googleapis.com/css?family=Karla:400i&display=swap');
+
 .font-bold{
 
 }
@@ -103,6 +105,11 @@ src: local("Bahnschrift Regular"), url("css/BAHNSCHRIFT.woff")
   height: 50px;
   padding-bottom: 5px;
 }
+.c-xs{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 5px;
+}
 /* COLORES FILTROS */
 .down-line{
 border-bottom: 2px solid #ddd;
@@ -129,19 +136,61 @@ border-bottom: 2px solid #ddd;
 .market-image{
   width: 20%;
 }
+.market-buy{
+  width: 50%;
+  height: 50%;
+}
+
+.box{
+border: 1px solid  rgba(221,221,221,0.0);
+transition: border 200ms ease-out;
+}
+.box:hover{
+border: 1px solid #dddddd;
+}
 .market-image img{
   border: 2px  solid rgba(221,221,221,0.0);
   transition: border 200ms ease-out;
-
 }
 .market-image img:hover{
   border: 2px solid rgba(221,221,221,1);
 }
-
+.market-icon{
+stroke:#000;
+transform: translate(0, 0);
+transition: all 200ms ease-out;
 }
+.market-icon:hover {
+ stroke:red;
+ transform: translate(0, -3px);
+}
+.market-cart{
+  fill:#002850;
+  transform: translate(0, 0);
+  transition: all 200ms ease-out;
+}
+.market-cart:hover{
+fill:#CCC;
+
+  transform: translate(0, -3px);
+}
+
+
 .b-right{
   border-right: 2px solid #ddd;
 }
 .b-down{
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #AAA;
+}
+.b-all{
+border: 1px solid #AAA;
+}
+.b-all:hover
+.font-bold{
+  font-weight: bold;
+}
+.font-light{
+  font-size: 15px;
+  color:#888;
+  font-family: 'Karla', sans-serif;
 }
