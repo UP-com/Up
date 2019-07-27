@@ -4,3 +4,5 @@ User-agents: *
 
 Disallow: /hey.html
 Disallow: /disigns.html
+
+Sitemap: https://xn--p-dha.com/sitemap.xlm
