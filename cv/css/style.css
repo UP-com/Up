@@ -209,6 +209,7 @@ button:focus,
 #main-wrapper {
     background : #ffffff;
     overflow   : hidden;
+    background-color: black;
     }
 
 /*-------------------
@@ -216,6 +217,7 @@ button:focus,
  *-------------------*/
 .section-wrapper {
     padding : 50px;
+
     }
 
 @media (max-width : 480px) {
@@ -223,7 +225,7 @@ button:focus,
         padding : 30px 20px;
         }
     }
-
+    
 /*---------------------------
 * Section Title
 *---------------------------*/
@@ -566,4 +568,13 @@ button:focus,
 .imbatman
 {
   color: black !important;
+}
+
+.iconsize{
+  width: 20%;
+  height: 20%;
+}
+.iconsize2{
+  width: 40%;
+  height: 40%;
 }
