@@ -225,7 +225,7 @@ button:focus,
         padding : 30px 20px;
         }
     }
-    
+
 /*---------------------------
 * Section Title
 *---------------------------*/
@@ -577,4 +577,8 @@ button:focus,
 .iconsize2{
   width: 40%;
   height: 40%;
+}
+.iconsize3{
+  width: 70%;
+  height: 70%;
 }
