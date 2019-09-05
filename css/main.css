@@ -1,34 +1,14 @@
-/* @font-face{
-  font-family: "BahnLight";
-  src: url("../css/BAHNSCHRIFT.woff");
-  font-variation-settings: "wght" 300, "wdth" 100;
-}
-@font-face{
-  font-family: "BahnBold";
-  src: url("../css/BAHNSCHRIFT.woff");
-  wght(300-700)wdth(75-100)
-} */
-/* @font-face{
-  font-family: "BandeinsSansVariableGX";
-  src: url("../css/BandeinsSansVariableGX.ttf");
-  font-variation-settings: "wght" 200;
-} */
-
 body {
-  /* font-family: "Bahn";
-  font-variation-settings: "wght" 300, "wdth" 100; */
-    /* wght(300-700)wdth(75-100) */
-
-    /* font-family: "BandeinsSansVariableGX";
-      font-variation-settings: "wght" 200; */
-      /* rango (200~800) */
-
   font-family: Helvetica;
   font-size:20px;
   background: #fff;
   -webkit-text-size-adjust: none;
 }
 
+/* UP COLORS */
+.up-blue{
+  background: #002850;
+}
 /* RESPONSIVE H1 IN LESS THAN -900PX */
 @media screen and (max-width:900px){
     h1{
@@ -63,9 +43,9 @@ body {
 
 #copyright {
   position: absolute;
-  text-align: center;
-  bottom: 10%;
-  width: 100%;
+  text-align: right;
+  bottom: 5%;
+  width: 95%;
 }
 figcaption.alpha{
   padding: 0.5em;
@@ -76,7 +56,6 @@ figcaption.alpha{
   top: -15%;
   left: -25%;
   transform: rotate(330deg)
-
 
 }
 
@@ -99,7 +78,7 @@ figcaption.alpha{
 
 #UPlogoSVG {
   animation: rainbow 12s infinite alternate;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 @keyframes rainbow{

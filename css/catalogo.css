@@ -1,14 +1,3 @@
-/* @font-face {
-  font-family: "Bahnschrift Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Bahnschrift Regular"), url("css/BAHNSCHRIFT.woff") format("woff");
-}
-.font-light{
-src: local("Bahnschrift Regular"), url("css/BAHNSCHRIFT.woff")
-  url('css/BAHNSCHRIFT.woff');
-  font-variation-settings: "wght" 100, "wdth" 95.99;
-} */
 @import url('https://fonts.googleapis.com/css?family=Karla:400i&display=swap');
 
 .font-bold{
