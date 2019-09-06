@@ -1,2 +1,2 @@
 #ÜP.com
-  The Online Cloth Renting Platform  
+The Online Cloth Renting Platform  
